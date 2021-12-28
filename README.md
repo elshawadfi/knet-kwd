@@ -10,7 +10,7 @@ composer require elshawadfi/knet-kwd
 
 ## usage
 ```php
-use Alnazer\knetkwd\Knet;
+use elshawadfi\knetkwd\Knet;
 
 
 $config = [
