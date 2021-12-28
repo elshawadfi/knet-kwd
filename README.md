@@ -14,18 +14,18 @@ use Elshawadfi\Knetkwd;
 
 
 $config = [
+    "response_url" => "https://domain.com/result.php",
+    "error_url" => "https://domain.com/error.php",
     "tranportal_id"=>"",
     "password"=>"",
     "resource_key"=>"",
-    "response_url" => "https://domain.com/result.php",
-    "error_url" => "https://domain.com/error.php",
     "amount"=> 100,
     "udf1"=> "",
     "udf2"=> "",
     "udf3"=> "",
     "udf4"=> "",
     "udf5"=> "",
-    "is_test"=>true   // for test 
+    "testmode"=>true   // for test 
 ];
 
 $knet  = new Knet($config);
@@ -35,11 +35,11 @@ $request = $knet->request();
 
 if($request["status"] == 1)
 {
-    // redirect to knet payment page using $request["data"]["url"];
+    //  $request["data"]["url"];
 }
 else
 {
-    // display errors print_r($request["errors"]);
+    // print_r($request["errors"]);
 }
 
 
@@ -52,11 +52,11 @@ else
 ```php
 
 $config = [
+    "response_url" => "https://domain.com/result.php",
+    "error_url" => "https://domain.com/error.php",
     "tranportal_id"=>"",
     "password"=>"",
     "resource_key"=>"",
-    "response_url" => "https://domain.com/result.php",
-    "error_url" => "https://domain.com/error.php",
     "amount"=> 100,
     "udf1"=> "",
     "udf2"=> "",
@@ -72,10 +72,10 @@ $resutl = $knet->responce();
 
 if($resutl["status"] == "success"){
 
-    // get reult and update your database
+  //you success code
 }
 else
 {
-    // print error $resutl["ErrorText"]
+    // error
 }
 ```
