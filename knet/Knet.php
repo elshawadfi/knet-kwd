@@ -9,7 +9,7 @@ class Knet
 
     public $config;
     public $erros = array();
-    public $is_test = false;
+    public $testmode = false;
     public $amount;
     public $tranportal_id = "";
     public $password = "";
@@ -32,7 +32,7 @@ class Knet
     {
         $this->config = array_merge(
             [
-                "is_test"=>false,
+                "testmode"=>false,
                 "tranportal_id"=>"",
                 "password"=>"",
                 "resource_key"=>"",
@@ -51,7 +51,7 @@ class Knet
                 }
             }
         }
-        if($this->is_test == true){
+        if($this->testmode == true){
             $this->gateway_url='https://kpaytest.com.kw/';
         }
     }
