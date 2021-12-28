@@ -25,6 +25,7 @@ $config = [
     "udf3"=> "",
     "udf4"=> "",
     "udf5"=> "",
+    "is_test"=>true   // for test 
 ];
 
 $knet  = new Knet($config);
@@ -44,6 +45,8 @@ else
 
 
 ```
+
+
 
 ## response page
 ```php
