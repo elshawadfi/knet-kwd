@@ -4,7 +4,7 @@
 `
 ## Installation
 ```composer
-composer require elshawadfi/knet-kwd
+composer require Elshawadfi/knet-kwd
 ```
 
 
