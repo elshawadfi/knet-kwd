@@ -1,6 +1,6 @@
 {
     "name": "elshawadfi/knetkwd",
-    "description": "knet payment getway for kuwait",
+    "description": "knet payment gateway for kuwait",
     "type": "library",
     "license": "MIT",
     "autoload": {
