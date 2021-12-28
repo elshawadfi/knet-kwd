@@ -1,25 +1,19 @@
 {
-    "name": "elshawadfi/knet-kwd",
-    "description": "knet payment getway",
-    "license": "GPL-2.0-only",
+    "name": "elshawadfi/knetkwd",
+    "description": "knet payment getway for kuwait",
     "type": "library",
-    "keywords": ["knet", "payment", "kuwait" ,"KD" ,"Knet Payment" , "Online"],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "authors": [
-      {
-        "name": "isalm",
-        "email": "isalm.elshawadfi@gmail.com"
-      }
-    ],
-      "support": {
-          "issues": "https://github.com/elshawadfi/knet-kwd/issues",
-          "source": "https://github.com/elshawadfi/knet-kwd"
-      },
-    "require": {
-      "php": "^5.6 || ^7.0 || ~8.0.0"
-    },
+    "license": "MIT",
     "autoload": {
-      "psr-4": {"elshawadfi\\knetkwd\\": "knet/"}
-    }
-  }
+        "psr-4": {
+            "Elshawadfi\\Knetkwd\\": "knet/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elshawadfi",
+            "email": "islam.elshawadfi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

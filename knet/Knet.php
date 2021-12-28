@@ -1,7 +1,7 @@
 <?php
 
 
-namespace elshawadfi\knetkwd;
+namespace Elshawadfi\Knetkwd;
 
 
 class Knet
